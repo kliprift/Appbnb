@@ -6,8 +6,11 @@
 
 # Ignore bundler config.
 /.bundle
+/config/environments/development.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
+
+
