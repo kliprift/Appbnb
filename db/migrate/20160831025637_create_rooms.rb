@@ -13,9 +13,9 @@ class CreateRooms < ActiveRecord::Migration
       t.boolean :is_kitchen
       t.boolean :is_air
       t.boolean :is_heating
-      t.bolean :is_internet
+      t.boolean :is_internet
       t.integer :price
-      t.booleab :active
+      t.boolean :active
       t.references :user, index: true, foreign_key: true
 
       t.timestamps null: false
